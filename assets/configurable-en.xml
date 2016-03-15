@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+	<test_item><name data="LCDTest" /><title data="LCD" /><test data="true" /></test_item>
+	<test_item><name data="TouchPanelTest" /><title data="Touch Panel" /><test data="true" /></test_item>
+	<test_item><name data="BacklightTest" /><title data="Backlight" /><test data="true" /></test_item>
+	<test_item><name data="FlashlightTest" /><title data="Flashlight" /><test data="true" /></test_item>
+	<test_item><name data="KeypadTest" /><title data="Keypad" /><test data="true" /></test_item>
+	<test_item><name data="SARADCTest" /><title data="SAR-ADC" /><test data="true" /></test_item>
+	<test_item><name data="SpeakerTest" /><title data="Speaker" /><test data="true" /></test_item>
+	<test_item><name data="HeadphoneTest" /><title data="Headphone" /><test data="true" /></test_item>
+	<test_item><name data="VideoTest" /><title data="Video" /><test data="true" /></test_item>
+	<test_item><name data="VibratorTest" /><title data="Vibrator" /><test data="true" /></test_item>
+	<test_item><name data="ReceiverMicTest" /><title data="Receiver &amp; Mic" /><test data="true" /></test_item>
+	<test_item><name data="FrontCameraTest" /><title data="Front Camera" /><test data="true" /></test_item>
+	<test_item><name data="RearCameraTest" /><title data="Rear Camera" /><test data="true" /></test_item>
+	<test_item><name data="AccelerometerSensorTest" /><title data="Accelerometer Sensor" /><test data="true" /></test_item>
+	<test_item><name data="MagneticSensorTest" /><title data="Magnetic Sensor" /><test data="true" /></test_item>
+	<test_item><name data="OrientationSensorTest" /><title data="Orientation Sensor" /><test data="true" /></test_item>
+	<test_item><name data="LightSensorTest" /><title data="Light Sensor" /><test data="true" /></test_item>
+	<test_item><name data="ProximitySensorTest" /><title data="Proximity Sensor" /><test data="true" /></test_item>
+</xml_api_reply>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="#ffffff00" android:padding="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/speaker_description" />
+    </LinearLayout>
+    <Button android:textAppearance="?android:textAppearanceLarge" android:id="@id/button3" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speaker_listen_again" android:layout_centerInParent="true" />
+    <Button android:id="@id/button1" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_ng" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/button2" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_good" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

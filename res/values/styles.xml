@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main_ui">
+        <item name="android:textColorSecondary">#ffffb64b</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="device_info_ui">
+        <item name="android:textColorSecondary">#ffffffff</item>
+        <item name="android:focusable">false</item>
+    </style>
+</resources>

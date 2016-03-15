@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/surfaceView1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/button2" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_ng" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/button3" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_good" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

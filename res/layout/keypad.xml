@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:id="@id/absoluteLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_up" android:layout_x="0.0dip" android:layout_y="13.0dip" />
+        <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_down" android:layout_x="1.0dip" android:layout_y="67.0dip" />
+        <Button android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu" android:layout_x="2.0dip" android:layout_y="126.0dip" />
+        <ImageView android:id="@id/imageView1" android:layout_width="137.0dip" android:layout_height="160.0dip" android:src="@drawable/phone_keypad3" android:layout_x="122.0dip" android:layout_y="20.0dip" />
+    </AbsoluteLayout>
+    <Button android:id="@id/button4" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_ng" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/button5" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_good" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back" android:layout_below="@id/absoluteLayout1" android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+	<test_item><name data="LCDTest" /><title data="顯示幕" /><test data="true" /></test_item>
+	<test_item><name data="TouchPanelTest" /><title data="觸控式螢幕" /><test data="true" /></test_item>
+	<test_item><name data="BacklightTest" /><title data="背光" /><test data="true" /></test_item>
+	<test_item><name data="FlashlightTest" /><title data="手電筒" /><test data="true" /></test_item>
+	<test_item><name data="KeypadTest" /><title data="按鍵" /><test data="true" /></test_item>
+	<test_item><name data="SARADCTest" /><title data="電池和充電" /><test data="true" /></test_item>
+	<test_item><name data="SpeakerTest" /><title data="喇叭" /><test data="true" /></test_item>
+	<test_item><name data="HeadphoneTest" /><title data="耳機" /><test data="true" /></test_item>
+	<test_item><name data="VideoTest" /><title data="視頻" /><test data="true" /></test_item>
+	<test_item><name data="VibratorTest" /><title data="振動器" /><test data="true" /></test_item>
+	<test_item><name data="ReceiverMicTest" /><title data="聽筒和麥克風" /><test data="true" /></test_item>
+	<test_item><name data="FrontCameraTest" /><title data="前置攝像頭" /><test data="true" /></test_item>
+	<test_item><name data="RearCameraTest" /><title data="後置攝像頭" /><test data="true" /></test_item>
+	<test_item><name data="AccelerometerSensorTest" /><title data="加速度感測器" /><test data="true" /></test_item>
+	<test_item><name data="MagneticSensorTest" /><title data="磁感應器" /><test data="true" /></test_item>
+	<test_item><name data="OrientationSensorTest" /><title data="方位感測器" /><test data="true" /></test_item>
+	<test_item><name data="LightSensorTest" /><title data="光線感測器" /><test data="true" /></test_item>
+	<test_item><name data="ProximitySensorTest" /><title data="距離感測器" /><test data="true" /></test_item>
+	<test_item><name data="BluetoothTest" /><title data="藍牙" /><test data="true" /></test_item>
+	<test_item><name data="WiFiTest" /><title data="無線網路" /><test data="true" /></test_item>
+	<test_item><name data="GPSTest" /><title data="GPS定位" /><test data="true" /></test_item>
+	<test_item><name data="SDCardTest" /><title data="存儲卡" /><test data="true" /></test_item>
+</xml_api_reply>

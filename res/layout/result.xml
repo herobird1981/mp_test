@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_report" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/lcd" />
+            <TextView android:id="@id/field_lcd_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/backlight" />
+            <TextView android:id="@id/field_backlight_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/vibrator" />
+            <TextView android:id="@id/field_vibrator_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/saradc" />
+            <TextView android:id="@id/field_saradc_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/speaker" />
+            <TextView android:id="@id/field_speaker_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/keypad" />
+            <TextView android:id="@id/field_keypad_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/proximitysensor" />
+            <TextView android:id="@id/field_proximitysensor_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/lightsensor" />
+            <TextView android:id="@id/field_lightsensor_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/accelerometersensor" />
+            <TextView android:id="@id/field_accelerometersensor_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/magneticsensor" />
+            <TextView android:id="@id/field_magneticsensor_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingLeft="10.0dip" android:text="@string/orientationsensor" />
+            <TextView android:id="@id/field_orientationsensor_result" android:paddingLeft="10.0dip" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

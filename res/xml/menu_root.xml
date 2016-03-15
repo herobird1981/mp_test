@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/mmitest_production_line_mode">
+        <PreferenceScreen android:title="@string/mmitest_production_line_mode" android:key="production_line_mode" android:summary="@string/mmitest_production_line_mode_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/mmitest_engineering_mode">
+        <PreferenceScreen android:title="@string/mmitest_engineering_mode" android:key="engineering_mode" android:summary="@string/mmitest_engineering_mode_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/mmitest_report">
+        <PreferenceScreen android:title="@string/mmitest_report" android:key="report" android:summary="@string/mmitest_report_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.ShowTestReport" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/mmiclear_report" android:key="clear_report" android:summary="@string/mmiclear_report_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.ClearReport" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Test_config">
+        <PreferenceScreen android:title="@string/Test_config" android:key="test_config" android:summary="@string/Testconfig_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.TestConfig" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/item_parameters" android:key="item_parameters" android:summary="@string/item_parameters_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.TestParameters" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Device_Info">
+        <PreferenceScreen android:title="@string/Device_Info" android:key="device_info" android:summary="@string/DeviceInfo_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.DeviceInfo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings">
+        <PreferenceScreen android:title="@string/settings" android:key="settings" android:summary="@string/settings_summary">
+            <intent android:targetPackage="com.kevin.mmitestx" android:action="android.intent.action.MAIN" android:targetClass="com.kevin.mmitestx.Settings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

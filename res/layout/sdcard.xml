@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button2" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_ng" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/button3" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/test_good" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <EditText android:id="@id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_string" android:ems="15" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <requestFocus />
+    </EditText>
+    <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/write_sdcard" android:layout_below="@id/editText1" android:layout_alignParentLeft="true" />
+    <EditText android:id="@id/editText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="101.0dip" android:ems="15" android:layout_below="@id/button1" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/read_sdcard" android:layout_below="@id/editText2" android:layout_alignParentLeft="true" />
+</RelativeLayout>

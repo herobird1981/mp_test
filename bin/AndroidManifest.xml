@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="20140113" android:versionName="v2.1" android:installLocation="auto" package="com.kevin.mmitestx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:debuggable="true">
+        <activity android:theme="@style/main_ui" android:label="@string/app_name" android:name=".MMITestX" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".BacklightTest" android:screenOrientation="portrait" />
+        <activity android:name=".VibratorTest" android:screenOrientation="portrait" />
+        <activity android:name=".SARADCTest" android:screenOrientation="portrait" />
+        <activity android:name=".SpeakerTest" android:screenOrientation="portrait" />
+        <activity android:name=".HeadphoneTest" android:screenOrientation="portrait" />
+        <activity android:name=".KeypadTest" android:screenOrientation="portrait" />
+        <activity android:name=".ProximitySensorTest" android:screenOrientation="portrait" />
+        <activity android:name=".LightSensorTest" android:screenOrientation="portrait" />
+        <activity android:name=".AccelerometerSensorTest" android:screenOrientation="portrait" />
+        <activity android:name=".MagneticSensorTest" android:screenOrientation="portrait" />
+        <activity android:name=".OrientationSensorTest" android:screenOrientation="portrait" />
+        <activity android:name=".LCDTest" android:screenOrientation="portrait" />
+        <activity android:name=".ProductionLineModeTest" android:screenOrientation="portrait" />
+        <activity android:name=".EngineeringModeTest" android:screenOrientation="portrait" />
+        <activity android:name=".ShowTestReport" android:screenOrientation="portrait" />
+        <activity android:name=".BluetoothTest" android:screenOrientation="portrait" />
+        <activity android:name=".TouchPanelTest" android:screenOrientation="portrait" />
+        <activity android:name=".ReceiverMicTest" android:screenOrientation="portrait" />
+        <activity android:name=".WiFiTest" android:screenOrientation="portrait" />
+        <activity android:name=".FrontCameraTest" android:screenOrientation="portrait" />
+        <activity android:name=".RearCameraTest" android:screenOrientation="portrait" />
+        <activity android:name=".GPSTest" android:screenOrientation="portrait" />
+        <activity android:name=".SDCardTest" android:screenOrientation="portrait" />
+        <activity android:theme="@style/device_info_ui" android:name=".DeviceInfo" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoDisplay" android:name="com.kevin.mmitestx.ClearReport" android:screenOrientation="portrait" />
+        <activity android:name=".TestConfig" android:screenOrientation="portrait" />
+        <activity android:name=".Settings" android:screenOrientation="portrait" />
+        <activity android:name=".FlashlightTest" android:screenOrientation="portrait" />
+        <activity android:name=".VideoTest" android:screenOrientation="portrait" />
+        <activity android:name=".TestParameters" android:screenOrientation="portrait"/>
+        <activity android:name=".TouchPanelTest_Setting" android:screenOrientation="portrait"/>
+        <activity android:name=".SpeakerTest_Setting" android:screenOrientation="portrait"/>
+        <activity android:name=".VibratorTest_Setting" android:screenOrientation="portrait"/>      
+        
+    </application>
+</manifest>
